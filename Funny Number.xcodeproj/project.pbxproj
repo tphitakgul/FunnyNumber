@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187C80A61FDD2295008BC372 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C80A51FDD2295008BC372 /* SecondViewController.swift */; };
 		188E3A561FDD14E0003A9D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A551FDD14E0003A9D4D /* AppDelegate.swift */; };
 		188E3A581FDD14E0003A9D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A571FDD14E0003A9D4D /* ViewController.swift */; };
 		188E3A5B1FDD14E0003A9D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A591FDD14E0003A9D4D /* Main.storyboard */; };
 		188E3A5D1FDD14E0003A9D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A5C1FDD14E0003A9D4D /* Assets.xcassets */; };
 		188E3A601FDD14E0003A9D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A5E1FDD14E0003A9D4D /* LaunchScreen.storyboard */; };
+		188E3A681FDD1A66003A9D4D /* ic_keyboard_arrow_left_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A671FDD1A66003A9D4D /* ic_keyboard_arrow_left_white_48pt.png */; };
+		188E3A6C1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A6B1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187C80A51FDD2295008BC372 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		188E3A521FDD14E0003A9D4D /* Funny Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188E3A551FDD14E0003A9D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		188E3A571FDD14E0003A9D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		188E3A5C1FDD14E0003A9D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188E3A5F1FDD14E0003A9D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188E3A611FDD14E0003A9D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E3A671FDD1A66003A9D4D /* ic_keyboard_arrow_left_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_white_48pt.png; sourceTree = "<group>"; };
+		188E3A6B1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_right_white_48pt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 				188E3A551FDD14E0003A9D4D /* AppDelegate.swift */,
 				188E3A571FDD14E0003A9D4D /* ViewController.swift */,
 				188E3A591FDD14E0003A9D4D /* Main.storyboard */,
+				187C80A51FDD2295008BC372 /* SecondViewController.swift */,
 				188E3A5C1FDD14E0003A9D4D /* Assets.xcassets */,
+				188E3A6B1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png */,
+				188E3A671FDD1A66003A9D4D /* ic_keyboard_arrow_left_white_48pt.png */,
 				188E3A5E1FDD14E0003A9D4D /* LaunchScreen.storyboard */,
 				188E3A611FDD14E0003A9D4D /* Info.plist */,
 			);
@@ -125,7 +134,9 @@
 			files = (
 				188E3A601FDD14E0003A9D4D /* LaunchScreen.storyboard in Resources */,
 				188E3A5D1FDD14E0003A9D4D /* Assets.xcassets in Resources */,
+				188E3A6C1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png in Resources */,
 				188E3A5B1FDD14E0003A9D4D /* Main.storyboard in Resources */,
+				188E3A681FDD1A66003A9D4D /* ic_keyboard_arrow_left_white_48pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C80A61FDD2295008BC372 /* SecondViewController.swift in Sources */,
 				188E3A581FDD14E0003A9D4D /* ViewController.swift in Sources */,
 				188E3A561FDD14E0003A9D4D /* AppDelegate.swift in Sources */,
 			);
