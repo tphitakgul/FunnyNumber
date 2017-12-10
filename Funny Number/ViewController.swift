@@ -11,10 +11,23 @@ import UIKit
 //start app
 class ViewController: UIViewController {
 
+    //Explicit
+    var myClass = MyClass()
     
+    @IBOutlet weak var displayNumberLabel: UILabel!
     
-    
-    
+    //button controller
+    @IBAction func backButton(_ sender: Any) {
+        let numberIntPara = Int(displayNumberLabel.text!)
+        displayNumberLabel.text = myClass.decreaseNumber(numberInt: numberIntPara!)
+    }
+    @IBAction func startbutton(_ sender: Any) {
+        displayNumberLabel.text = myClass.resetNumber()
+    }
+    @IBAction func nextButton(_ sender: Any) {
+        let numberIntPara = Int(displayNumberLabel.text!)
+        displayNumberLabel.text = myClass.increaseNumber(numberInt: numberIntPara!)
+    }
     
     
     override func viewDidLoad() {

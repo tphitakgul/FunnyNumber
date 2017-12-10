@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181066861FDD26F80048702D /* CalculateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181066851FDD26F80048702D /* CalculateNumber.swift */; };
 		187C80A61FDD2295008BC372 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C80A51FDD2295008BC372 /* SecondViewController.swift */; };
 		188E3A561FDD14E0003A9D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A551FDD14E0003A9D4D /* AppDelegate.swift */; };
 		188E3A581FDD14E0003A9D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A571FDD14E0003A9D4D /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181066851FDD26F80048702D /* CalculateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateNumber.swift; sourceTree = "<group>"; };
 		187C80A51FDD2295008BC372 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		188E3A521FDD14E0003A9D4D /* Funny Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188E3A551FDD14E0003A9D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				188E3A551FDD14E0003A9D4D /* AppDelegate.swift */,
-				188E3A571FDD14E0003A9D4D /* ViewController.swift */,
 				188E3A591FDD14E0003A9D4D /* Main.storyboard */,
+				188E3A571FDD14E0003A9D4D /* ViewController.swift */,
+				181066851FDD26F80048702D /* CalculateNumber.swift */,
 				187C80A51FDD2295008BC372 /* SecondViewController.swift */,
 				188E3A5C1FDD14E0003A9D4D /* Assets.xcassets */,
 				188E3A6B1FDD1AA0003A9D4D /* ic_keyboard_arrow_right_white_48pt.png */,
@@ -150,6 +153,7 @@
 				187C80A61FDD2295008BC372 /* SecondViewController.swift in Sources */,
 				188E3A581FDD14E0003A9D4D /* ViewController.swift in Sources */,
 				188E3A561FDD14E0003A9D4D /* AppDelegate.swift in Sources */,
+				181066861FDD26F80048702D /* CalculateNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
